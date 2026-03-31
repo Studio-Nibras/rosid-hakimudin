@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        badge: {
+          DEFAULT: "hsl(var(--badge-bg))",
+          foreground: "hsl(var(--badge-text))",
+        },
+        glass: "hsl(var(--glass-bg))",
+        nav: {
+          active: "hsl(var(--nav-active))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
