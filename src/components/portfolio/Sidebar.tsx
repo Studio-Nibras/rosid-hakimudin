@@ -1,10 +1,10 @@
-import { Github, Linkedin, Twitter, Code2, Mail } from "lucide-react";
+import { Github, Linkedin, Instagram, Code2, Mail } from "lucide-react";
 import { socialLinks } from "@/data/portfolio";
 
 const iconMap: Record<string, React.ElementType> = {
   github: Github,
   linkedin: Linkedin,
-  twitter: Twitter,
+  instagram: Instagram,
   codepen: Code2,
   mail: Mail,
 };
@@ -23,13 +23,13 @@ const Sidebar = ({ activeSection }: SidebarProps) => (
   <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-1/2 lg:max-w-md lg:flex-col lg:justify-between lg:py-24 lg:px-6">
     <div>
       <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-        Alex Chen
+        Rosid Hakimudin
       </h1>
       <h2 className="mt-3 text-lg font-medium text-primary">
-        Frontend Engineer
+        Frontend Developer
       </h2>
       <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-        I build accessible, pixel-perfect digital experiences for the web.
+        I build responsive and intuitive web experiences with a focus on clean design and functionality.
       </p>
 
       <nav className="mt-16 hidden lg:block" aria-label="In-page navigation">

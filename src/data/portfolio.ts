@@ -27,82 +27,148 @@ export interface Article {
 
 export const experiences: Experience[] = [
   {
-    period: "2024 — Present",
-    role: "Senior Frontend Engineer, Design Systems",
-    company: "Vercel",
+    period: "2025 — Present",
+    role: "Vice Chair",
+    company: "HMIF - UNIBA",
     companyUrl: "#",
     description:
-      "Build and maintain critical design system components used across the platform. Work closely with cross-functional teams to implement and advocate for best practices in web accessibility and performance.",
-    technologies: ["TypeScript", "React", "Next.js", "Storybook", "Tailwind CSS"],
+      "Support organizational leadership and coordinate activities across multiple divisions. Work closely with team members to plan programs, maintain communication, and ensure the effective execution of organizational initiatives.",
+    technologies: [
+      "Leadership",
+      "Teamwork",
+      "Communication",
+      "Project Management",
+    ],
   },
   {
-    period: "2021 — 2024",
-    role: "Lead Engineer",
-    company: "Stripe",
+    period: "2026",
+    role: "International Conference Presenter",
+    company: "International Conference",
     companyUrl: "#",
     description:
-      "Led frontend architecture for the Payments Dashboard, serving millions of merchants. Built high-quality, performant interfaces across web and mobile. Mentored junior engineers and drove adoption of modern tooling.",
-    technologies: ["React", "TypeScript", "GraphQL", "Node.js", "Ruby"],
-    products: ["Dashboard", "Checkout", "Elements"],
+      "Presented academic research at an international conference, sharing research findings and insights with an academic audience.",
+    technologies: [
+      "Research",
+      "Presentation",
+      "Academic Writing",
+      "Communication",
+    ],
   },
   {
-    period: "2019 — 2021",
-    role: "UI Engineer",
-    company: "Spotify",
+    period: "2026",
+    role: "Web Developer",
+    company: "LIDM 2026",
     companyUrl: "#",
     description:
-      "Developed and styled interactive web applications for Spotify's internal tools and artist-facing platforms. Collaborated with designers to create pixel-perfect, accessible user interfaces.",
-    technologies: ["JavaScript", "React", "SCSS", "Python"],
-    products: ["Backstage", "Artist Portal"],
+      "Contributed to the development of Noteflow, an AI-powered learning platform that helps students transform learning materials into mind maps and interactive quizzes. Worked across frontend development and API integration to build an intuitive and responsive learning experience.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Express.js",
+      "Supabase",
+      "Gemini API",
+    ],
   },
   {
-    period: "2017 — 2019",
-    role: "Frontend Developer",
-    company: "Figma",
+    period: "2026",
+    role: "Finalist — Web Design Competition",
+    company: "Web Design Competition",
     companyUrl: "#",
     description:
-      "Contributed to the web-based design tool, building collaborative features and optimizing rendering performance. Worked on plugin APIs and community-facing features.",
-    technologies: ["TypeScript", "WebGL", "React", "C++"],
+      "Developed and presented a responsive web design project, focusing on user experience, visual consistency, and functional interface design.",
+    technologies: ["UI/UX", "Web Design", "HTML", "CSS", "JavaScript"],
   },
   {
-    period: "2016 — 2017",
-    role: "Software Engineer Co-op",
-    company: "GitHub",
+    period: "2026",
+    role: "Top 10 Finalist",
+    company: "National Scientific Poster Competition",
     companyUrl: "#",
     description:
-      "Worked with the engineering team on pull request review tools and notification systems. Built and shipped features used by millions of developers.",
-    technologies: ["Ruby", "Rails", "JavaScript", "CSS"],
+      "Selected as one of the Top 10 finalists in a national scientific poster competition, demonstrating research, visual communication, and presentation skills.",
+    technologies: [
+      "Research",
+      "Scientific Writing",
+      "Visual Communication",
+      "Presentation",
+    ],
+  },
+  {
+    period: "2025 — Present",
+    role: "Head of Communications",
+    company: "UKMI Kyai Mojo - UNIBA",
+    companyUrl: "#",
+    description:
+      "Manage communication and social media activities for the organization. Create and coordinate digital content while collaborating with team members to support organizational programs and maintain effective information delivery.",
+    technologies: [
+      "Social Media",
+      "Content Creation",
+      "Communication",
+      "Teamwork",
+    ],
+  },
+  {
+    period: "2026",
+    role: "Project & Event Coordinator",
+    company: "Student Mobility Program — UNIBA",
+    companyUrl: "#",
+    description:
+      "Coordinate the implementation of a student mobility program involving UNIBA Surakarta and Universiti Teknologi PETRONAS. Communicate with participants and external teams while supporting event planning, coordination, and execution.",
+    technologies: [
+      "Project Management",
+      "Event Coordination",
+      "Communication",
+      "Teamwork",
+    ],
+  },
+  {
+    period: "2025",
+    role: "Vice Chairman",
+    company: "SOCHA 2026",
+    companyUrl: "#",
+    description:
+      "Supported the leadership and coordination of a large-scale futsal tournament, working with the organizing team to manage event operations, coordinate crew, and ensure the successful execution of the competition.",
+    technologies: [
+      "Leadership",
+      "Event Management",
+      "Teamwork",
+      "Coordination",
+    ],
   },
 ];
 
 export const projects: Project[] = [
   {
-    title: "DevKit CLI",
+    title: "Noteflow",
     description:
-      "A powerful command-line toolkit for scaffolding modern web projects with best practices baked in. Supports React, Vue, and Svelte with TypeScript configurations.",
-    technologies: ["Node.js", "TypeScript", "Commander", "Inquirer"],
-    stars: 2847,
+      "An AI-powered learning platform that helps students transform learning materials into interactive mind maps and quizzes. Developed the frontend interface and integrated AI-powered features to create an intuitive and engaging learning experience.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Express.js",
+      "Supabase",
+      "Gemini API",
+    ],
   },
   {
-    title: "Chromatic UI",
+    title: "DietMate",
     description:
-      "An open-source design system and component library built for accessibility-first development. Features 50+ components with full dark mode support.",
-    technologies: ["React", "Tailwind CSS", "Radix UI", "Storybook"],
-    installs: "12k+ weekly",
+      "A web-based nutrition companion designed to help users plan meals, track their progress, and learn about healthier eating habits through a simple and intuitive interface.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "LocalStorage"],
   },
   {
-    title: "Pulse Analytics",
+    title: "Travelina",
     description:
-      "Real-time web analytics dashboard with privacy-first tracking. Lightweight script (<1KB) with zero cookie dependency and GDPR compliance built in.",
-    technologies: ["Next.js", "PostgreSQL", "Redis", "Vercel"],
-    stars: 1203,
-  },
-  {
-    title: "Spectrum Theme",
-    description:
-      "A minimal dark theme for VS Code, Sublime Text, and JetBrains IDEs. Carefully crafted color palette optimized for long coding sessions.",
-    technologies: ["JSON", "YAML", "Theme API"],
-    installs: "85k+ installs",
+      "One of my first web development projects, built as a hands-on learning experience to explore responsive web design, frontend development, and modern UI techniques. This project became an important part of my early journey in learning how to turn ideas into functional websites.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Swiper.js",
+      "AOS",
+    ],
   },
 ];
 
@@ -129,18 +195,23 @@ export const articles: Article[] = [
   },
 ];
 
-export const bio = `I'm a frontend engineer with a passion for building beautiful, performant, and accessible web experiences. I enjoy working at the intersection of design and engineering, where thoughtful code meets pixel-perfect interfaces.
+export const bio = `I’m an Informatics student and frontend developer passionate about building modern, responsive, and user-friendly web experiences. I enjoy turning ideas and designs into functional interfaces while focusing on clean code, usability, and thoughtful design.
 
-Currently, I'm a senior frontend engineer at Vercel, where I help build and maintain the design system that powers the platform. My focus is on creating reusable, accessible components that scale across teams and products.
+Beyond development, I’m actively involved in campus organizations and various events, where I’ve had the opportunity to take on leadership roles, coordinate teams, and collaborate with people from different backgrounds. These experiences have strengthened my communication, teamwork, problem-solving, and leadership skills.
 
-Previously, I've worked across a range of environments — from fast-moving startups to industry-leading tech companies including Stripe, Spotify, and Figma. These experiences have shaped how I think about building products that are both well-crafted and widely usable.
-
-Outside of work, you can find me contributing to open source, writing about web development, or exploring new coffee shops in San Francisco.`;
+Through academic, personal, and organizational projects, I’m continuously developing both my technical and interpersonal skills. I’m currently looking for an internship opportunity where I can contribute to real-world projects, learn from experienced professionals, and grow as a developer.`;
 
 export const socialLinks = [
-  { name: "GitHub", url: "https://github.com", icon: "github" },
-  { name: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
-  { name: "Twitter", url: "https://twitter.com", icon: "twitter" },
-  { name: "CodePen", url: "https://codepen.io", icon: "codepen" },
-  { name: "Email", url: "mailto:hello@example.com", icon: "mail" },
+  { name: "GitHub", url: "https://github.com/Studio-Nibras", icon: "github" },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/rosid-hakimudin-213a52329?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    icon: "linkedin",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/rosidhakimudin?igsi=MTd1Nnd0MWl0bHpnMg==",
+    icon: "instagram",
+  },
+  { name: "Email", url: "mailto:rosidhakimudin@gmail.com", icon: "mail" },
 ];
