@@ -69,7 +69,7 @@ const Index = () => (
     </section>
 
     {/* ARTICLES */}
-    <section className="mb-16 scroll-mt-16 lg:mb-24 lg:scroll-mt-24">
+    <section id="articles" className="mb-16 scroll-mt-16 lg:mb-24 lg:scroll-mt-24">
       <SectionTitle id="articles-title">Writing</SectionTitle>
       <div className="space-y-1">
         {articles.map((article, i) => (
