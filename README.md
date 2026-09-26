@@ -1,3 +1,2 @@
-# Welcome to your Lovable project
+# my web portfolio
 
-TODO: Document your project here
